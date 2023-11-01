@@ -1,129 +1,88 @@
-* {
-  margin: 0;
-  padding: 0;
-  
-  box-sizing: border-box;
+
+#qut{
+    border:  solid black 2px;
+    font-weight: bold;
+    color: green;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.hed{
+    color: white;
+    
+}
+
+.chos{
+
+    padding: 15px;
+    font-size: large;
+}
+
+#ques{
+    padding: 5px;
+}
+
+#eved{
+    padding: 5px;
+}
+
+#conc{
+    padding: 5px;
+}
+#tb{
+    border:  solid black 2px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    min-height: 50vh;
 
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  box-sizing: border-box;
-  width: 100vw;
-  min-height: 100vh;
-  overflow-x: hidden;
-  
-
-  
+#disp{
+    border:  solid black 2px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    min-height: 75vh;
+    
 }
 
-.bg-mg{
-
-  
-  background-image: url(library.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  
-  background-position:top;
-  background-attachment:fixed;
-  width: 100%;
-  min-height: 100vh;
-  
-  
-
-}
-.overlay {
-  background: rgba(0, 0, 0, 0.5);
- 
-  
-  top: 0;
-  left: 0;
- width: 100%;
-  min-height: 100vh;
-  
+#topics{
+    border:  solid black 2px;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    
+    
 }
 
-.background {
-  background-color: rgb(218, 144, 53);
+#disp2{
+    border:  solid black 2px;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    overflow: scroll;
+    height: 30vh;
+    
+    
+    
+    
 }
 
-.main-content {
-  color: white;
-  box-sizing: border-box;
-  
+#footer{
+    
+    color: white;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
 }
 
-#header button {
-  width: 110px;
-
-  padding: 10px;
-  margin: 10px;
-
-  background-color: green;
-  border-radius: 10px;
+#ftt{
+    margin-top: 5px;
 }
 
-#header button a {
-  text-align: center;
-  text-decoration: none;
-  list-style: none;
-  color: yellow;
-  font-size: 18px;
-}
 
-#header {
-  background-color: red;
-  color: white;
-  text-align: center;
 
-  margin: 10px;
-}
-
-#name {
-  margin-left: 65%;
-}
-
-#main {
-  font-size: 20px;
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-  padding: 10px;
-  
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.heading {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 100vw;
-}
-.button-group {
-  text-align: center;
-}
-.button {
-  min-width: 100px;
-  border-radius: 5px;
-  color: blue;
-
-  padding: 5px;
-}
-
-#part1 {
-  height: 50vh;
-}
-#footer {
-  clear: both;
-  padding:20px;
-
-  color: white;
-  text-align: right;
-}
-
-#context ul li {
-  list-style-type: none;
-}
