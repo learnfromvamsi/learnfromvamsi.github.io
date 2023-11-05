@@ -1,88 +1,115 @@
-
-#qut{
-    border:  solid black 2px;
-    font-weight: bold;
-    color: green;
-    border-radius: 10px;
-    font-style: italic;
+body{
+    overflow-x: hidden;
+    
 }
 
-.hed{
+
+
+#hed{
+    width: 100vw;
     color: white;
-    
-}
-
-.chos{
-
-    padding: 15px;
-    font-size: large;
-}
-
-#ques{
-    padding: 5px;
-}
-
-#eved{
-    padding: 5px;
-}
-
-#conc{
-    padding: 5px;
-}
-#tb{
-    border:  solid black 2px;
-    padding: 10px;
-    color: black;
-    border-radius: 10px;
-    min-height: 50vh;
-
-}
-
-#disp{
-    border:  solid black 2px;
-    padding: 10px;
-    color: black;
-    border-radius: 10px;
-    min-height: 75vh;
-    
-}
-
-#topics{
-    border:  solid black 2px;
-    padding: 5px;
-    color: black;
-    border-radius: 10px;
-    
-    
-}
-
-#disp2{
-    border:  solid black 2px;
-    padding: 5px;
-    color: black;
-    border-radius: 10px;
-    overflow: scroll;
-    height: 30vh;
-    
-    
-    
-    
-}
-
-#footer{
-    
-    color: white;
-    position: relative;
+    padding: auto;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+   background-color: black;
+   border:  solid black 2px;
+   overflow-x: hidden;
+   overflow-y: hidden;
+    
+}
+
+#container{
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    border:  solid black 2px;
+    
+    
+}
+#bd{
+    border:  solid black 2px;
+    padding: 10px;
+    width: 76%;
+    color: black;
+    border-radius: 10px;
+    float: right;
+   
+    height: 80vh;
+   
+    overflow: scroll;
+    
+   
+    
+}
+ 
+#topics{
+    
+    float: left;
+    width: 20%;
+    border:  solid black 2px;
+    padding: 10px;
+    border-radius: 10px;
     
     
 }
 
-#ftt{
-    margin-top: 5px;
+
+
+
+#eng{
+    border:  solid black 2px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    margin: 2px;
+    
+    overflow: scroll;
+    height: 35vh;
+
 }
+
+#topic{
+    border:  solid black 2px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    margin: 2px;
+    overflow: scroll;
+    height: 35vh;
+
+}
+
+
+#ft{
+    
+    color: white;
+    position: fixed;
+    
+   background-color: black;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    
+    
+    padding: right 50px; 
+    
+    width: 100vw;
+    
+    
+    
+    
+    
+}
+
+
+
+
 
 
 
