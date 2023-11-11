@@ -1,30 +1,37 @@
 
  var a=[
     {
-      ques:"hi this is question is a question is a question is a question",
-       eved:"hi this is evidence is an evidence is an evidence is an evidence",
-       conc:"hi this is conclusion is a conclusion is a conclusion is a conclusion"
+      exp1:"hi this is question is a question is a question is a question",
+      exp2:"hi this is evidence is an evidence is an evidence is an evidence",
+      exp3:"hi this is conclusion is a conclusion is a conclusion is a conclusion"
     },
     {
-      ques:"hi this is question is a question" ,
-      eved:"hi this is evidence is an evidence",
-      conc:"hi this is conclusion is a conclusion"
+      exp1:"hi this is question is a question is a question is a question",
+      exp2:"hi this is evidence is an evidence is an evidence is an evidence",
+      exp3:"hi this is conclusion is a conclusion is a conclusion is a conclusion"
+    },
+     
+    {
+      exp1:"hi this is question is a question is a question is a question",
+      exp2:"hi this is evidence is an evidence is an evidence is an evidence",
+      exp3:"hi this is conclusion is a conclusion is a conclusion is a conclusion"
     }
+    
     ];
     
-    var Qu=document.getElementById("ques");
-    var Ev=document.getElementById("eved");
-    var Co=document.getElementById("conc");
+    var Qu=document.getElementById("exp1");
+    var Ev=document.getElementById("exp2");
+    var Co=document.getElementById("exp3");
 
       
     
 
     function display(element){
-        c=element.getAttribute("numm")
+       let  c=element.getAttribute("numm")
     
-        Qu.innerHTML= a[c-1].ques;
-        Ev.innerHTML= a[c-1].eved;
-        Co.innerHTML= a[c-1].conc; 
+        Qu.innerHTML= a[c-1].exp1;
+        Ev.innerHTML= a[c-1].exp2;
+        Co.innerHTML= a[c-1].exp3; 
     }
 
     let date= new Date();
