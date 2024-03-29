@@ -14,6 +14,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
+
   
 
   
@@ -21,13 +22,14 @@ body {
 
 .bg-mg{
 
-  
-  background-image: url(background2.jpg);
+background-image: url(background2.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   
   background-position:top;
   background-attachment:fixed;
+  
+  
   width: 100%;
   min-height: 100vh;
  
